@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | Foco Centro Automotivo</title>
+
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+    <header class="scrolled" id="topo">
+        <div class="container">
+            <a href="index.html" class="logo" aria-label="Voltar para início">
+                <img src="assets/images/logo.png" alt="Logo Foco Centro Automotivo" />
+            </a>
+
+            <nav aria-label="Navegação principal">
+                <ul class="menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <a class="btn-header" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero page-hero-contact">
+            <div class="container">
+                <span>Fale com nossa equipe</span>
+                <h1>Atendimento rápido e profissional</h1>
+                <p>
+                    Envie sua dúvida, solicite orçamento ou agende sua revisão.
+                    Nossa equipe está pronta para atender você.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <h2>Informações de contato</h2>
+                    <p>Entre em contato pelos canais abaixo e receba atendimento especializado.</p>
+
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <div>
+                                <h3>WhatsApp</h3>
+                                <p><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">(11) 99999-9999</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <h3>Telefone</h3>
+                                <p><a href="tel:+5511999999999">(11) 99999-9999</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h3>E-mail</h3>
+                                <p><a href="mailto:contato@focoauto.com.br">contato@focoauto.com.br</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h3>Endereço</h3>
+                                <p>Av. Exemplo, 1234 - São Paulo/SP</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fa-regular fa-clock"></i>
+                            <div>
+                                <h3>Horário de atendimento</h3>
+                                <p>Seg a Sex: 08h às 18h<br />Sáb: 08h às 13h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap">
+                    <h2>Solicitar orçamento</h2>
+                    <form class="contact-form" action="#" method="post">
+                        <label for="nome">Nome completo</label>
+                        <input id="nome" name="nome" type="text" placeholder="Digite seu nome" required />
+
+                        <label for="telefone">Telefone / WhatsApp</label>
+                        <input id="telefone" name="telefone" type="tel" placeholder="(00) 00000-0000" required />
+
+                        <label for="email">E-mail</label>
+                        <input id="email" name="email" type="email" placeholder="voce@email.com" />
+
+                        <label for="servico">Serviço de interesse</label>
+                        <select id="servico" name="servico" required>
+                            <option value="">Selecione um serviço</option>
+                            <option>Injeção eletrônica</option>
+                            <option>Transmissão</option>
+                            <option>Suspensão em geral</option>
+                            <option>Mecânica em geral</option>
+                            <option>Correia dentada</option>
+                            <option>Motor</option>
+                            <option>Arrefecimento</option>
+                            <option>Embreagem</option>
+                            <option>Caixa de direção</option>
+                            <option>Alternador e revisão geral</option>
+                            <option>Troca de óleos e filtros</option>
+                            <option>Freios</option>
+                        </select>
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva o que seu veículo precisa"></textarea>
+
+                        <button type="submit" class="btn-primary">Enviar solicitação</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Precisa de resposta imediata?</h2>
+                <p>Chame no WhatsApp e fale agora com um especialista.</p>
+                <a class="btn-secondary" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">Atendimento via WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div><h3>Foco Centro Automotivo</h3><p>Atendimento técnico completo para revisão, diagnóstico e manutenção automotiva.</p></div>
+            <div><h3>Navegação</h3><a href="index.html">Início</a><a href="servicos.html">Serviços</a><a href="sobre.html">Sobre</a><a href="galeria.html">Galeria</a><a href="contato.html">Contato</a></div>
+            <div><h3>Contato</h3><p>WhatsApp: (11) 99999-9999</p><p>Seg a Sex: 08h às 18h</p><p>Sáb: 08h às 13h</p></div>
+        </div>
+        <div class="copyright">© 2026 Foco Centro Automotivo. Todos os direitos reservados.</div>
+    </footer>
+
+    <a class="whatsapp" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+    <script src="js/pages.js"></script>
+</body>
+</html>
